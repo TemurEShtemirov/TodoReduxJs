@@ -1,3 +1,4 @@
+import "./NewTodoFrom.css"
 const NewTodoForm = ({ value, updateText, handleAction }) => {
   return (
     <label>
@@ -5,8 +6,9 @@ const NewTodoForm = ({ value, updateText, handleAction }) => {
         placeholer='new todo'
         value={value}
         onChange={(e) => updateText(e.target.value)}
-      />
-      <button onClick={handleAction}>Add todo</button>
+      className="InputTodo"
+     />
+      <button className="btn" onClick={handleAction}>Add todo</button>
     </label>
   );
 };

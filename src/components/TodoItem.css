@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    font-size: 45px;
+    font-family: cursive;
+    color: #ffa500;
+
+}

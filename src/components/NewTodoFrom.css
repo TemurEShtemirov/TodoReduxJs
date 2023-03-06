@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.InputTodo{
+    padding-top: 20px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 100px;
+    border:solid #ffa500;
+    background-color: #000;
+    color: #ffa500;
+    font-size: 40px;
+}
+.btn{
+     padding-top: 10px;
+     margin-top: 200px;
+     padding-bottom: 10px;
+     padding-right: 30px;
+     margin-left: 50px;
+     padding-left: 30px;
+     border-radius: 100px;
+     border:solid #ffa500;
+     background-color: #000;
+     color: #ffa500;
+     font-size: 40px;
+}
